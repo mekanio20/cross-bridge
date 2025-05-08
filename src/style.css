@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cb-light-blue;
+  font-family: 'Inter', sans-serif;
+}
+
+.page-container {
+  @apply max-w-7xl mx-auto;
+}
+
+.footer-text {
+  @apply text-sm text-gray-600;
+}
+
+.page-title {
+  @apply text-6xl font-bold mb-16;
+}
+
+.section-title {
+  @apply text-4xl font-bold mb-6;
+}
+
+.page-number {
+  @apply text-xl font-medium;
+}
+
+/* Custom utilities */
+.wave-shape {
+  border-radius: 0 0 50% 50% / 0 0 100px 100px;
+}
