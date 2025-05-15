@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen bg-white py-16 px-6">
+  <section id="product_categories" class="min-h-screen bg-white pt-40 py-16 px-6">
     <div class="page-container">
       <h2 class="page-title mb-20">Product Categories</h2>
 

@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen bg-white py-16 px-6">
+  <section id="business_activities" class="min-h-screen bg-white pt-40 py-16 px-6">
     <div class="page-container">
       <div class="flex flex-col lg:flex-row justify-between mb-12">
         <h2 class="page-title lg:w-2/3">Business Activities</h2>

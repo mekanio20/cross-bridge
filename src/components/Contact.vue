@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="relative w-full h-screen overflow-hidden bg-slate-300">
+    <section id="contact_us" class="relative w-full h-screen overflow-hidden bg-slate-300">
         <div class="absolute top-0 right-0 left-0 h-screen bg-cover bg-center"
             style="background-image: url('/imgs/contact.webp')">
         </div>

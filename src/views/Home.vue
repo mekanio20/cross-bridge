@@ -1,11 +1,12 @@
 <template>
-    <div class="min-h-screen">
+    <div class="min-h-screen bg-white">
         <Navbar />
         <HeroSection />
         <OverviewSection />
         <MissionVisionSection />
         <BusinessActivitiesSection />
         <ProductCategoriesSection />
+        <InformationSection />
         <AdvantagesSection />
         <SupplyChainSection />
         <AchievmentsSection />
@@ -19,6 +20,7 @@ import OverviewSection from '@/components/OverviewSection.vue'
 import MissionVisionSection from '@/components/MissionVisionSection.vue'
 import BusinessActivitiesSection from '@/components/BusinessActivitiesSection.vue'
 import ProductCategoriesSection from '@/components/ProductCategoriesSection.vue'
+import InformationSection from '@/components/InformationSection.vue'
 import AdvantagesSection from '@/components/Advantage.vue'
 import SupplyChainSection from '@/components/SupplyChain.vue'
 import AchievmentsSection from '@/components/Achievements.vue'
@@ -34,6 +36,7 @@ export default {
         MissionVisionSection,
         BusinessActivitiesSection,
         ProductCategoriesSection,
+        InformationSection,
         AdvantagesSection,
         SupplyChainSection,
         AchievmentsSection,

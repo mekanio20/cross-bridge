@@ -10,9 +10,9 @@
                 </router-link>
             </div>
             <div class="flex items-center space-x-2">
-                <router-link v-for="item in items" :key="item.id" :to="item.route" class="font-poppins font-medium text-sm px-6 py-8 cursor-pointer hover:text-hero-green duration-300">
+                <a v-for="item in items" :key="item.id" :href="item.route" @click.prevent="scrollToSection(item.route)" class="font-poppins font-medium text-sm px-6 py-8 cursor-pointer hover:text-hero-green duration-300">
                     {{ item.name }}
-                </router-link>
+                </a>
             </div>
         </div>
     </div>
@@ -55,6 +55,14 @@ export default {
                     route: '#contact_us'
                 }
             ]
+        }
+    },
+    methods: {
+        scrollToSection(sectionId) {
+            const element = document.querySelector(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
         }
     }
 }

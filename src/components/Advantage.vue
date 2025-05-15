@@ -1,5 +1,5 @@
 <template>
-    <section id="competitive-advantage" class="relative h-screen overflow-hidden">
+    <section id="advantages" class="relative h-screen pt-20 overflow-hidden">
 
         <!-- Background image -->
         <div class="absolute top-0 right-0 left-0 h-screen bg-cover bg-center"

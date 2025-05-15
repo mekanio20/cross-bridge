@@ -1,5 +1,5 @@
 <template>
-  <section class="h-screen p-20 bg-nav-white relative overflow-hidden">
+  <section id="about" class="h-screen pt-40 p-20 bg-nav-white relative overflow-hidden">
     <div class="container">
       <div class="flex items-center justify-between">
         <h2 class="font-poppins font-medium text-5xl">Overview</h2>
