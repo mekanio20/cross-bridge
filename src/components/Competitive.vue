@@ -1,11 +1,8 @@
 <template>
-    <section id="competitive-advantage" class="relative h-screen overflow-hidden bg-navy-dark">
-        <!-- Background curved shape -->
-        <div class="absolute bottom-0 left-0 right-0 h-1/3 bg-slate-300 rounded-tl-[70%]"></div>
-
+    <section id="competitive-advantage" class="relative h-screen overflow-hidden">
         <!-- Background image -->
         <div class="absolute top-0 right-0 w-1/2 h-screen bg-cover bg-center"
-            style="background-image: url('/imgs/bg2.jpeg')">
+            style="background-image: url('/imgs/bg3.webp')">
         </div>
 
         <!-- Content -->
@@ -21,8 +18,5 @@
                 </p>
             </div>
         </div>
-
-        <!-- Footer -->
-        <PageFooter :page="6" />
     </section>
 </template>

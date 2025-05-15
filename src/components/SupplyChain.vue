@@ -1,7 +1,5 @@
 <template>
     <section id="supply-chain" class="relative h-screen overflow-hidden bg-slate-blue">
-        <!-- Background curved shape -->
-        <div class="absolute bottom-0 right-0 w-full h-1/3 bg-navy-dark rounded-tr-[70%]"></div>
 
         <!-- Content -->
         <div class="container mx-auto px-4 md:px-8 pt-24 relative z-10">
@@ -67,8 +65,5 @@
                 </div>
             </div>
         </div>
-
-        <!-- Footer -->
-        <PageFooter :page="7" />
     </section>
 </template>
