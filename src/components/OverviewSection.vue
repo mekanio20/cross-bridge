@@ -24,7 +24,7 @@
           <span class="font-bold">China</span> - Beijing
         </div>
       </div>
-      <p class="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-over-gray z-10">We operate in major markets such as Central Asia, the Middle East, Europe, Africa, and East Asia.</p>
+      <!-- <p class="absolute bottom-14 left-1/2 transform -translate-x-1/2 text-over-gray z-10">We operate in major markets such as Central Asia, the Middle East, Europe, Africa, and East Asia.</p> -->
       <img class="absolute bottom-0 right-0" src="/svgs/overview.svg">
     </div>
   </section>
